@@ -36,3 +36,9 @@ The endpoint should respond with a payload similar to this, based on messages' t
 # Front-end test
 
 Consume the API you created in the back-end test and display the data in a simple web page. You can use any front-end framework, but we recommend using React. You can use any CSS framework, but we recommend using material-ui.
+
+## Bonus Points
+- Api handling in the frontend by a library rather than fetch()
+
+
+Remember to commit often after each milestone, like successful API response from weather API, setting up the project, and getting a response on FE. It shouldn't be a single commit submission after everything is done.
