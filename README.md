@@ -1,4 +1,4 @@
-# Tardis Labs - Back-end test
+# Tardis Labs - Fullstack test
 
 Welcome to the technical test for back-end developers. For this test, you'll need to make a simple HTTP server that responds with data fetched from [weather API](https://www.weatherapi.com/docs/). Make sure to read all the way to the end before starting.
 
@@ -24,6 +24,7 @@ The endpoint should respond with a payload similar to this, based on messages' t
     "farenheit": 115,
   },
 }
+```
 
 ## Bonus Points
 
@@ -31,3 +32,7 @@ The endpoint should respond with a payload similar to this, based on messages' t
 - no use of `any` and everything is strongly typed
 - Use reverse geo-coding to get the city name from the lat-long
 
+
+# Front-end test
+
+Consume the API you created in the back-end test and display the data in a simple web page. You can use any front-end framework, but we recommend using React. You can use any CSS framework, but we recommend using material-ui.
